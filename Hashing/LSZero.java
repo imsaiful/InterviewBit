@@ -23,7 +23,7 @@ public class LSZero{
             sum += A.get(i);
 
             if(map.get(sum) != null){
-                if(maxLength <= (i - map.get(sum))){
+                if(maxLength < (i - map.get(sum))){
                     start = map.get(sum) + 1;
                     end = i;
                     maxLength = i - map.get(sum); 
