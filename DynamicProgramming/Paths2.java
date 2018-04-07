@@ -24,7 +24,7 @@ public class Paths2 {
         
         int m = a.size();
         int n = a.get(0).size();
-        if(a.get(0).get(0) == 1 || a.get(m-1)(n-1))
+        if(a.get(0).get(0) == 1 || a.get(m-1).get(n-1)==1)
             return 0;
         
         int[][] dp = new int[m][n];
